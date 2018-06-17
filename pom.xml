@@ -27,6 +27,7 @@
 
     <modules>
         <module>eureka-server</module>
+        <module>message-service</module>
     </modules>
 
     <dependencyManagement>
