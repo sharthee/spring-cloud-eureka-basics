@@ -25,6 +25,10 @@
         <spring-cloud.version>Finchley.RC2</spring-cloud.version>
     </properties>
 
+    <modules>
+        <module>eureka-server</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>

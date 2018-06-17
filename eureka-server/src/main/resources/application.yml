@@ -1,0 +1,5 @@
+# Run Eureka on the conventional port which is 8761
+server:
+  port: 8761
+
+spring.cloud.ser
