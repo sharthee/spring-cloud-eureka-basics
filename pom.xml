@@ -28,6 +28,7 @@
     <modules>
         <module>eureka-server</module>
         <module>message-service</module>
+        <module>billboard-client-java</module>
     </modules>
 
     <dependencyManagement>
