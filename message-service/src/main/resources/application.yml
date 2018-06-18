@@ -8,6 +8,8 @@ eureka:
   client:
     fetch-registry: false # This service does not call any other service so no need to cache list of registered services
     register-with-eureka: true # This service should register itself in eureka
+    healthcheck:
+     enabled: true # use the spring boot health check status to indicate to eureka if the service is up
   instance:
     instance-id: ${spring.application.name}:${random.int} # unique id for app instances registered with eureka
 
@@ -21,5 +23,3 @@ management:
   endpoint:
     health:
       show-details: always
-
-
