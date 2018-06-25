@@ -19,6 +19,7 @@ namespace MessageService.Controllers
         [Route("/status")]
         public String Get()
         {
+            
             return $"Health Checks Will Pass: {_exampleHealthIndicator.State}";
         }
 

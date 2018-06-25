@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "billboard-client", "billboard-client-dotnetcore\billboard-client.csproj", "{A9823EAF-0E5D-492C-BF8D-E393CD8118BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "billboard-client", "billboard-client\billboard-client.csproj", "{A9823EAF-0E5D-492C-BF8D-E393CD8118BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "message-service", "message-service-dotnetcore\message-service.csproj", "{0447FDBA-F85F-4055-8749-23DFAE3A0B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "message-service", "message-service\message-service.csproj", "{0447FDBA-F85F-4055-8749-23DFAE3A0B1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
